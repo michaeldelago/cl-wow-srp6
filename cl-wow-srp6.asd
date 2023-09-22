@@ -1,7 +1,7 @@
 (defsystem "cl-wow-srp6"
   :version "0.1.0"
-  :author ""
-  :license ""
+  :author "michaeldelago"
+  :license "MIT"
   :depends-on (:ironclad)
   :components ((:module "src"
                 :components
@@ -11,8 +11,8 @@
   :in-order-to ((test-op (test-op "cl-wow-srp6/tests"))))
 
 (defsystem "cl-wow-srp6/tests"
-  :author ""
-  :license ""
+  :author "michaeldelago"
+  :license "MIT"
   :depends-on ("cl-wow-srp6"
                "rove")
   :components ((:module "tests"
